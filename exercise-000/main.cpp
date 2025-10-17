@@ -14,5 +14,9 @@ int main(int argc, char **argv) {
 
     /* INSERT YOUR CODE HERE */
 
+    int foo = 10;
+    int* ptr =
+
+
     return 0; /* exit gracefully*/
 }
