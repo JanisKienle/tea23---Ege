@@ -2,7 +2,7 @@
 #include <fmt/format.h>
 
 #include "config.h"
-
+int globVar = 1;
 int main(int argc, char **argv) {
 
     /**
@@ -11,6 +11,7 @@ int main(int argc, char **argv) {
      * More info at https://fmt.dev/latest/api.html
      */
     fmt::print("Hello, {}!\n", tea::PROJECT_NAME);
+    fmt::print("Wert: {}", globVar);
 
     /* INSERT YOUR CODE HERE */
 
